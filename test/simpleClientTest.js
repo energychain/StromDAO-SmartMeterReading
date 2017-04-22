@@ -3,7 +3,7 @@ const assert = require('assert');
 
 describe('sendPromise', function() {
          describe('#setReading', function() {
-             
+            this.timeout(60000);
             var privateKey="0x1471693ac4ae1646256c6a96edf2d808ad2dc6b75df69aa2709c4140e16bc7c4"; // <= Ein privater Schlüssel 0x1471693ac4ae1646256c6a96edf2d808ad2dc6b75df69aa2709c4140e16bc7c4 für 0x4Cd9Cf35C70C568543a6a583E6e713ea5BF14Acd    
             reading = new Date().getTime();
             var ethers = require('ethers');
