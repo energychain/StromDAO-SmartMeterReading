@@ -3,7 +3,7 @@
 ## Hintergrund
 Mit diesem Script können einfach Messwerte an die EnergieBlockchain der StromDAO übermittelt werden. Hierzu ist in der simpleClient.js ein privater Schlüssel zu hinterlegen.
 
-## Nutzung
+## Nutzung (Standalone)
 npm start MESSWERT [privateKey]
 
 ```
@@ -12,6 +12,13 @@ npm start 1337
 
 ```
 npm start 1338 0xb8135fcc02d9b7ecb1263ccfe546b22ee9cc1ea97ae60fab9f9853c77c73fe67
+```
+
+## Nutzung (Module)
+
+```javascript
+var client = require("stromdao-smartmeterreading");
+client.sendReading(reading,privateKey);
 ```
 
 ## Ausgabe für SmartMeter 0x4Cd9Cf35C70C568543a6a583E6e713ea5BF14Acd
