@@ -1,0 +1,32 @@
+{
+  "name": "stromdao-smartmeterreading",
+  "version": "0.0.2",
+  "description": "Easy SmartMeter Client for Oracle Service and Gateway Administration (GWALink)",
+  "main": "simpleClient.js",
+  "scripts": {
+    "start": "node simpleClient.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "energy",
+    "power",
+    "connectivity",
+    "oracle"
+  ],
+  "author": "Thorsten Zoerner <thorsten.zoerner@stromdao.de>",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^2.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/StromDAO-SmartMeterReading.git"
+  },
+  "bugs": {
+    "url": "https://github.com/energychain/StromDAO-SmartMeterReading/issues"
+  },
+  "homepage": "https://github.com/energychain/StromDAO-SmartMeterReading#readme"
+}
