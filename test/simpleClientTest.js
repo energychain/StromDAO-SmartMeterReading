@@ -18,12 +18,11 @@ describe('sendPromise', function() {
                     
             var sendPromise = contract.pingReading(reading);
             
-            it('Should be in consense with BC', function(done) {
-            sendPromise.then(function(transaction) {        
+            it('Should be in consense with BC', function() {
+            return sendPromise.then(function(transaction) {        
                     assert.equal(transaction.hash.length,66);
                     assert.equal(transaction.to,deployed_reading);
                     assert.equal(transaction.from,"0x4Cd9Cf35C70C568543a6a583E6e713ea5BF14Acd");
-                    done();
             });
          });
     });
