@@ -1,6 +1,6 @@
 {
   "name": "stromdao-smartmeterreading",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Easy SmartMeter Client for Oracle Service and Gateway Administration (GWALink)",
   "main": "simpleClient.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "ethers": "^2.0.1"
   },
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "mocha": "^3.2.0"
   },
   "repository": {
     "type": "git",
