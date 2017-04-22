@@ -5,7 +5,7 @@
   "main": "simpleClient.js",
   "scripts": {
     "start": "simpleClient.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "blockchain",
@@ -20,7 +20,9 @@
   "dependencies": {
     "ethers": "^2.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/energychain/StromDAO-SmartMeterReading.git"
